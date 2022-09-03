@@ -1,0 +1,21 @@
+question1 = input("What's your favorite animal?")
+print("You said " + question1)
+
+print("What's your favorite color?")
+question2 = input()
+print("You said " + question2)
+
+print("What's your favorite football team?")
+question3 = input()
+print("You said " + question3)
+
+print("What's your favorite company?")
+question4 = input()
+print("You said " + question4)
+
+print("Do you think I remembered your answers?")
+response = input()
+print("You guessed right")
+
+print(f"your favorite animal is a {question1} , your favorite color is {question2} , your favorite football team is {question3} , and your favorite company is {question4}")
+
